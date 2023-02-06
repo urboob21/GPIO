@@ -1,5 +1,5 @@
 # GPIO
-General Purpose Input/Output<br>
+**General Purpose Input/Output**<br>
 I.Mode <br>
 1. INPUT
   - Floating: cấu hình thả nổi <br>
