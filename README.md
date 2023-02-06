@@ -1,6 +1,8 @@
 # GPIO
 General Purpose Input/Output
-#1. INPUT
+I.Mode 
+
+1. INPUT
   - Floating: cấu hình thả nổi 
   
   ![image](https://user-images.githubusercontent.com/118428350/216987872-4944280f-d60c-4623-8069-c820b03789ee.png)
@@ -12,7 +14,7 @@ General Purpose Input/Output
 
     - cấu hình có trở kéo lên hoặc xuống, giá trị trạng thái của INPUT xác định cụ thể là 0 or 1 (0V or 5V)
 
-#2. OUTPUT
+2. OUTPUT
   - Open drain: 
 
 ![image](https://user-images.githubusercontent.com/118428350/216990066-45c7da64-9025-4cf1-a4b5-e4776b2dcaac.png)
