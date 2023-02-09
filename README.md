@@ -43,6 +43,16 @@ II. Something <br>
                 do something<br>
             }<br>
 
+4. External interrupt <br>
+![image](https://user-images.githubusercontent.com/118428350/217842227-1f73ee79-703b-46cf-a62a-fa220e719c25.png)<br>
+
+B1: Enable ngắt toàn cục : EA=1; <br>
+B2: Enable ngắt EXTI0/1 ~ P3.2 P3.3 <br>
+B3: Viết hàm ngắt:  void name_isr() interrupt ? {} <br>
+![image](https://user-images.githubusercontent.com/118428350/217842723-2cd059a0-54ea-442c-9142-ee616ebe00f3.png)
+
+
+
   
   
 
