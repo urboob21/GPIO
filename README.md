@@ -51,6 +51,16 @@ B2: Enable ngắt EXTI0/1 ~ P3.2 P3.3 <br>
 B3: Viết hàm ngắt:  void name_isr() interrupt ? {} <br>
 ![image](https://user-images.githubusercontent.com/118428350/217842723-2cd059a0-54ea-442c-9142-ee616ebe00f3.png)
 
+5. Timers 8051
+- Thạch anh ngoại qua bộ chia /12 dùng cho timer.
+- Có 2 bộ timers 16bit : TH1|TL1 và TH0|TL0.
+a. Các thanh ghi 
+#TMOD: Gate|C/T|M1|M0|Gate|C/T|M1|M0
+             Timer1  |   Timer0
+- Gate=0 cho phép timer khi INT0/INT1 = 1 và TR0/TR1 = 1.
+- Gate=1 cho phép timer khi TR0/TR1 = 1. <br>
+        ![image](https://user-images.githubusercontent.com/118428350/217852723-be899b4d-970e-4b71-aa0e-9e9e33ac7f40.png)<br>
+
 
 
   
